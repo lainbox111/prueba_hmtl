@@ -5,12 +5,9 @@
  display: inline-block;
 }
 
-
-.footer{
+.separador{
   width: 100%;
-  height: 1200px;
-  background-color: blue;
-
+  height: 30px;
 }
 
 .separador_footer{
