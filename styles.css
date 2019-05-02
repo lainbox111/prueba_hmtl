@@ -1,0 +1,36 @@
+.logobox{
+ max-width: 20%;
+
+}.inline{
+ display: inline-block;
+}
+
+
+.footer{
+  width: 100%;
+  height: 1200px;
+  background-color: blue;
+
+}
+
+.separador_footer{
+  height: 20px;
+}
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
